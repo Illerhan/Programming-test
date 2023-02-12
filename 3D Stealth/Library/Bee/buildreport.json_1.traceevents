@@ -1,0 +1,565 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676221769373607, "dur": 1394482, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221769373831, "dur": 2248, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221769376081, "dur": 22017, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221769398100, "dur": 564865, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221769962967, "dur": 803263, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221770766232, "dur": 1856, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221770768509, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676221769819285, "dur": 131811, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676221769820206, "dur": 39710, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676221769936701, "dur": 4078, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676221769940783, "dur": 10305, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676221769941459, "dur": 8952, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676221769955236, "dur": 1307, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676221769954412, "dur": 2162, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221770768636, "dur": 180, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676221769993516, "dur":1333, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221769994858, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676221769994910, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676221769994923, "dur":571, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676221769995520, "dur":682, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221769996203, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770751657, "dur":338, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770751996, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752013, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752016, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752022, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752023, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752030, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752032, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752038, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752039, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752045, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752046, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752052, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752054, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752059, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752061, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752066, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752068, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752073, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752074, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752090, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752092, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752098, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752099, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752109, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752112, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752117, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752120, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752128, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752129, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752141, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752143, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752167, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752187, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770752196, "dur":1562, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676221769995440, "dur":772, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221769996215, "dur":2506, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221769998728, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676221769998735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221769999819, "dur":427, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676221770000253, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676221770000327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770000516, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676221770002974, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676221770003105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770003462, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676221770004754, "dur":44938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770049696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770049904, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770051427, "dur":121932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770173363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770173370, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770177241, "dur":15925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770193170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770193180, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770194142, "dur":33145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770227293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770227304, "dur":9889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770237229, "dur":63552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770300815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770300826, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770305479, "dur":66351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770371836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770371846, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770372904, "dur":99859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770472768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770472777, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676221770475064, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1676221770475104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770475818, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1676221770478175, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676221770478217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770478227, "dur":5905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676221770484176, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676221770484224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770484233, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676221770485774, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676221770485810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770485817, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676221770486948, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676221770487074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676221770487080, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676221770487820, "dur":263824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221769995487, "dur":740, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221769996227, "dur":2500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221769998728, "dur":11364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676221770010096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770010112, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676221770012264, "dur":40333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770052603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770052614, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770053668, "dur":127863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770181538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770181549, "dur":9037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770190629, "dur":13483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770204117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770204127, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770205158, "dur":55949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770261111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770261122, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770262287, "dur":118714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770381007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770381017, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770382175, "dur":93138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770475316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770475323, "dur":8996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676221770484357, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676221770484392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676221770484398, "dur":7236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676221770491670, "dur":259996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221769995476, "dur":745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221769996221, "dur":2505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221769998730, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676221769999032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770013424, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676221770014739, "dur":27473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770042219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770042230, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770043281, "dur":20987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770064273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770064282, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770065210, "dur":82597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770147811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770147817, "dur":5070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770152927, "dur":15285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770168217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770168226, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770170612, "dur":30944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770201559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770201567, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770202774, "dur":97153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770299933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770299943, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770301509, "dur":88455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770389970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770389981, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770391134, "dur":203231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770594370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676221770594378, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676221770595486, "dur":156183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221769995520, "dur":715, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221769996235, "dur":2488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221769998729, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676221769998843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770000744, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676221770003169, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1676221770003283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770003289, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1676221770004704, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1676221770004786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770004794, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1676221770006578, "dur":83743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676221770090327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770090335, "dur":3961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676221770094437, "dur":65267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770159710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770159721, "dur":6566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770166388, "dur":57092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770223486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770223496, "dur":9538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770233072, "dur":57741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770290820, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770290832, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770293147, "dur":180286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770473438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770473446, "dur":12294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676221770485778, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676221770485812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676221770485817, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676221770486954, "dur":264694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221769995547, "dur":693, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221769996240, "dur":2489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221769998730, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676221769998912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770009959, "dur":3966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676221770013976, "dur":33342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770047321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770047329, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770048466, "dur":13170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770061642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770061653, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770063351, "dur":15461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770078818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770078829, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770081352, "dur":16057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770097414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770097422, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770098897, "dur":14887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770113789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770113798, "dur":14774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770128617, "dur":44939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770173559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770173565, "dur":3843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770177439, "dur":46416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770223859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770223867, "dur":9105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770233018, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770233832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770233842, "dur":6549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770240437, "dur":93099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770333541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770333552, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770337265, "dur":137796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770475064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770475072, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676221770478821, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1676221770479050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770479058, "dur":7101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1676221770486198, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1676221770486261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676221770486266, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1676221770487410, "dur":264236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221769995573, "dur":675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221769996248, "dur":2550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221769998803, "dur":11709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676221770010515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770010529, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676221770013755, "dur":33094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770046853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770046861, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770047917, "dur":64688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770112611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770112621, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770114175, "dur":33066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770147247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770147257, "dur":5348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770152648, "dur":90876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770243529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770243538, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770245079, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770245745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770245770, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770246880, "dur":23644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770270531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770270541, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770271542, "dur":51006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770322554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770322564, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770325908, "dur":87936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770413851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770413861, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770414928, "dur":98729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770513662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676221770513669, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676221770514670, "dur":237003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221769995601, "dur":654, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221769996255, "dur":2557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221769998817, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676221769998942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770011076, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676221770014264, "dur":15078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770029346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770029488, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770031628, "dur":16947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770048578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770048586, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770049896, "dur":55281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770105180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770105189, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770107978, "dur":36750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770144732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770144739, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770145948, "dur":26965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770172924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770172937, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770176750, "dur":119040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770295794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770295804, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770297875, "dur":85815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770383695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770383705, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770385146, "dur":335655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770720807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676221770720843, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676221770724137, "dur":27513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221769995633, "dur":625, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221769996258, "dur":2565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221769998823, "dur":11411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676221770010237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770010320, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676221770012061, "dur":17030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770029097, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770029397, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770030437, "dur":16993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770047433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770047440, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770048511, "dur":57797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770106313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770106322, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770107973, "dur":19760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770127738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770127745, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770129806, "dur":44609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770174420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770174427, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770176896, "dur":24556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770201455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770201473, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770202529, "dur":107053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770309589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770309599, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770312309, "dur":160118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770472433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770472445, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676221770474444, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1676221770474557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770474770, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1676221770475720, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676221770475763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770475768, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676221770479021, "dur":18461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1676221770497489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676221770497502, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1676221770498544, "dur":253119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221769995671, "dur":592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221769996264, "dur":2458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221769998729, "dur":47526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1676221770046261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770046552, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1676221770047499, "dur":16202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770063705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770063713, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770065198, "dur":31903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770097107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770097117, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770098507, "dur":28821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770127333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770127343, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770129783, "dur":14940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770144728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770144738, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770146068, "dur":28882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770174954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770174962, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770176798, "dur":23488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770200292, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770200303, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770201361, "dur":39115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770240480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770240491, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770242920, "dur":1834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770244759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770244769, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770246348, "dur":34282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770280637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770280647, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770281889, "dur":92722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770374617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770374627, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770375869, "dur":127688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770503562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676221770503573, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676221770505195, "dur":246469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676221769995702, "dur":567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676221769996269, "dur":2503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676221769998777, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1676221769998895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676221770003840, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1676221770005094, "dur":293283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676221770298380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676221770298387, "dur":17215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676221770315644, "dur":222556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676221770538205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676221770538213, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676221770540434, "dur":211235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221769995734, "dur":540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221769996274, "dur":2511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221769998789, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1676221769998955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770012505, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1676221770014926, "dur":19847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770034779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770034885, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770035904, "dur":12781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770048689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770048695, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770049924, "dur":28892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770078820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770078829, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770080034, "dur":50837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770130875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770130886, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770131990, "dur":34541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770166535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770166544, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770167483, "dur":62806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770230295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770230305, "dur":6772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770237123, "dur":48025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770285155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770285166, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770286216, "dur":278793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770565015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676221770565026, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676221770566599, "dur":185072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221769995769, "dur":511, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221769996280, "dur":2479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221769998765, "dur":11874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1676221770010642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770010657, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1676221770012731, "dur":36065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770048799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770048806, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770050311, "dur":47367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770097742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770097749, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770103838, "dur":22814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770126748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770126763, "dur":5291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770132096, "dur":15436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770147536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770147544, "dur":5790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770153366, "dur":24283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770177653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770177662, "dur":11176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770188886, "dur":35334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770224224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770224231, "dur":13821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770238085, "dur":18003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770256095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770256106, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770258296, "dur":36762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770295064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770295075, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770296455, "dur":169036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770465497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770465509, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770466911, "dur":283698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770750615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676221770750626, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676221770751597, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1676221770751601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221769995795, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221769996286, "dur":2462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221769998753, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1676221769998907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770009111, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1676221770011490, "dur":93173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770104668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770104679, "dur":6066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770110786, "dur":41789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770152582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770152594, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770154111, "dur":19077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770173192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770173232, "dur":17510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770190780, "dur":34328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770225112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770225121, "dur":35557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770260727, "dur":4091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770264823, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770264833, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770267320, "dur":225896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770493219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1676221770493227, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1676221770498131, "dur":253530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221769995831, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221769996291, "dur":2449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221769998743, "dur":10888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1676221770009643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770009685, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1676221770010709, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1676221770010822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770011195, "dur":8814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1676221770020053, "dur":95782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770115840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770115850, "dur":12588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770128476, "dur":41368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770169849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770169859, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770170834, "dur":20911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770191749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770191760, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770192725, "dur":25087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770217817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770217826, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770219319, "dur":195946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770415269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770415299, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770416444, "dur":75507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770491956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1676221770491965, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1676221770495381, "dur":256286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221769995862, "dur":435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221769996297, "dur":2435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221769998735, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1676221769998850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770003855, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1676221770005009, "dur":116278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770121293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770121407, "dur":6531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770127975, "dur":14282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770142264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770142274, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770144003, "dur":28975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770172981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770172988, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770174944, "dur":40492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770215441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770215452, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770217065, "dur":79674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770296743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770296753, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770298067, "dur":66887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770364960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770364971, "dur":3510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770368535, "dur":121847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770490387, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1676221770490409, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1676221770492453, "dur":259190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221769995902, "dur":397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221769996299, "dur":2425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221769998729, "dur":10889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1676221770009622, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770009700, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1676221770010708, "dur":52062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D.exe" }}
+,{ "pid":12345, "tid":16, "ts":1676221770062774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770062781, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D.exe" }}
+,{ "pid":12345, "tid":16, "ts":1676221770064944, "dur":29066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770094083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770094093, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770095111, "dur":73443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770168557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770168565, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770170290, "dur":18563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770188858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770188867, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770191292, "dur":131788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770323084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770323093, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770324424, "dur":168434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770492861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1676221770492869, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/adupi/Desktop/StealthBoy/Platformer 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1676221770495126, "dur":256519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676221770755509, "dur":1918, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676221770768866, "dur": 559, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676221770768487, "dur": 956, "ph": "X", "name": "Write chrome-trace events", "args": {} },
